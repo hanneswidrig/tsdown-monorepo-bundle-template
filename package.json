@@ -1,27 +1,12 @@
 {
   "name": "tsdown-workspace-demo",
+  "version": "0.1.0",
   "type": "module",
-  "version": "0.0.0",
-  "exports": {
-    ".": "./dist/index.mjs",
-    "./package.json": "./package.json"
-  },
-  "main": "./dist/index.mjs",
-  "module": "./dist/index.mjs",
-  "types": "./dist/index.d.mts",
-  "files": [
-    "dist"
-  ],
   "scripts": {
     "build": "tsdown",
     "dev": "tsdown --watch",
     "typecheck": "tsgo",
     "prepublishOnly": "pnpm run build"
-  },
-  "dependencies": {
-    "@lib/aurora": "workspace:*",
-    "@lib/nebula": "workspace:*",
-    "@lib/zenith": "workspace:*"
   },
   "devDependencies": {
     "@types/node": "^25.3.3",

@@ -1,6 +1,6 @@
 {
   "name": "api",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "type": "module",
   "types": "./dist/index.d.mts",
   "exports": {
@@ -15,5 +15,10 @@
       ".": "./dist/index.mjs",
       "./package.json": "./package.json"
     }
+  },
+  "devDependencies": {
+    "@lib/aurora": "workspace:*",
+    "@lib/nebula": "workspace:*",
+    "@lib/zenith": "workspace:*"
   }
 }

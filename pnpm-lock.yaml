@@ -10,16 +10,6 @@ overrides:
 importers:
 
   .:
-    dependencies:
-      '@lib/aurora':
-        specifier: workspace:*
-        version: link:libs/aurora
-      '@lib/nebula':
-        specifier: workspace:*
-        version: link:libs/nebula
-      '@lib/zenith':
-        specifier: workspace:*
-        version: link:libs/zenith
     devDependencies:
       '@types/node':
         specifier: ^25.3.3
@@ -31,7 +21,17 @@ importers:
         specifier: ^0.21.0-beta.4
         version: 0.21.0-beta.4(@typescript/native-preview@7.0.0-dev.20260304.1)
 
-  apps/api: {}
+  apps/api:
+    devDependencies:
+      '@lib/aurora':
+        specifier: workspace:*
+        version: link:../../libs/aurora
+      '@lib/nebula':
+        specifier: workspace:*
+        version: link:../../libs/nebula
+      '@lib/zenith':
+        specifier: workspace:*
+        version: link:../../libs/zenith
 
   libs/aurora: {}
 
