@@ -2,18 +2,18 @@
   "compilerOptions": {
     "target": "esnext",
     "lib": ["ESNext"],
-    "customConditions": ["dev"],
-    "module": "preserve",
-    "moduleResolution": "bundler",
-    "resolveJsonModule": true,
     "types": ["node"],
-    "strict": true,
-    "strictNullChecks": true,
-    "declaration": true,
-    "noEmit": true,
-    "esModuleInterop": true,
+
+    "module": "preserve",
     "verbatimModuleSyntax": true,
-    "skipDefaultLibCheck": true,
+    "resolveJsonModule": true,
+    "customConditions": ["dev"],
+
+    "noEmit": true,
+    "composite": false,
+    "declaration": true,
+    "declarationMap": false,
+
     "skipLibCheck": true,
   },
 }
