@@ -11,9 +11,13 @@ pnpm install
 ## Commands
 
 ```bash
-pnpm run build   # Build all packages
-pnpm run dev    # Watch mode for development
-pnpm run typecheck
+pnpm run build      # Build all packages with tsdown
+pnpm run dev        # Watch mode for development
+pnpm run typecheck  # Type-check with tsgo (TypeScript)
+pnpm run lint       # Lint with oxlint
+pnpm run lint:fix   # Fix lint issues
+pnpm run fmt        # Format with oxfmt
+pnpm run fmt:check  # Check formatting
 ```
 
 ## Structure
