@@ -7,7 +7,6 @@
     "module": "preserve",
     "verbatimModuleSyntax": true,
     "resolveJsonModule": true,
-    "customConditions": ["dev"],
 
     "noEmit": true,
     "composite": false,
