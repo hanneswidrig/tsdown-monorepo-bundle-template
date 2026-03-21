@@ -1,5 +1,5 @@
 {
-  "name": "api",
+  "name": "@lib/external",
   "version": "0.1.0",
   "type": "module",
   "types": "./dist/index.d.mts",
@@ -12,13 +12,5 @@
       ".": "./dist/index.mjs",
       "./package.json": "./package.json"
     }
-  },
-  "dependencies": {
-    "@lib/external": "workspace:*"
-  },
-  "devDependencies": {
-    "@lib/aurora": "workspace:*",
-    "@lib/nebula": "workspace:*",
-    "@lib/zenith": "workspace:*"
   }
 }

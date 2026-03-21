@@ -4,15 +4,23 @@
     "lib": ["ESNext"],
     "types": ["node"],
 
-    "module": "preserve",
-    "verbatimModuleSyntax": true,
+    "module": "nodenext",
+
+    // When using bundlers, you may want to preserve the original module syntax and let the bundler handle it.
+    // "module": "preserve",
+    // "moduleResolution": "bundler",
+
+    "skipLibCheck": true,
+    "isolatedModules": true,
     "resolveJsonModule": true,
+    "erasableSyntaxOnly": true,
+    "verbatimModuleSyntax": true,
+    "allowImportingTsExtensions": true,
+    "rewriteRelativeImportExtensions": true,
 
     "noEmit": true,
     "composite": false,
     "declaration": true,
     "declarationMap": false,
-
-    "skipLibCheck": true,
   },
 }
