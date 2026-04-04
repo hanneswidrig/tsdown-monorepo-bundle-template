@@ -4,7 +4,7 @@ packages:
 
 catalog:
   "@types/node": "^25.5.2"
-  "@typescript/native-preview": "7.0.0-dev.20260403.1"
+  "@typescript/native-preview": "7.0.0-dev.20260404.1"
   "tsdown": "^0.21.7"
 
 onlyBuiltDependencies:
