@@ -21,6 +21,6 @@
     "noEmit": true,
     "composite": false,
     "declaration": true,
-    "declarationMap": false,
-  },
+    "declarationMap": false
+  }
 }
