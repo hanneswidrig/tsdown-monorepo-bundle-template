@@ -5,10 +5,7 @@
     "types": ["node"],
 
     "module": "nodenext",
-
-    // When using bundlers, you may want to preserve the original module syntax and let the bundler handle it.
-    // "module": "preserve",
-    // "moduleResolution": "bundler",
+    "moduleResolution": "nodenext",
 
     "skipLibCheck": true,
     "isolatedModules": true,
